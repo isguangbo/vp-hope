@@ -12,9 +12,11 @@ export default hopeTheme(
       email: '188315385@qq.com'
     },
 
-    iconAssets: 'fontawesome-with-brands',
+    // iconAssets: 'fontawesome-with-brands',
+    iconAssets: ['//at.alicdn.com/t/c/font_4221652_kifyoah0l2.css', 'iconfont'],
+    iconPrefix: 'iconfont icon-',
 
-    logo: '/logo.svg',
+    logo: '/logo.png',
 
     repo: 'isguangbo/vp-hope',
 
@@ -29,6 +31,8 @@ export default hopeTheme(
     // footer: '默认页脚',
 
     displayFooter: true,
+    fullscreen: true,
+    // rtl: true,
 
     // 加密配置
     encrypt: {

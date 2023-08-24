@@ -3,46 +3,16 @@ import { navbar } from 'vuepress-theme-hope'
 export default navbar(
   [
     '/',
-    '/demo/',
-    {
-      text: '指南',
-      icon: 'lightbulb',
-      prefix: '/guide/',
-      children: [
-        {
-          text: 'Bar',
-          icon: 'lightbulb',
-          prefix: 'bar/',
-          children: ['baz', { text: '...', icon: 'ellipsis', link: '' }]
-        },
-        {
-          text: 'Foo',
-          icon: 'lightbulb',
-          prefix: 'foo/',
-          children: ['ray', { text: '...', icon: 'ellipsis', link: '' }]
-        }
-      ]
-    },
     {
       text: '书籍',
-      icon: 'book',
+      icon: 'yewutubiao_tushuguanlixitong',
       prefix: '/books/',
       children: [
         {
-          text: 'ES6',
-          icon: 'book',
-          prefix: 'es/',
-          children: [{ text: 'ES6快速上手', icon: 'book', link: '' }]
-        },
-        {
-          text: '1',
-          icon: 'book',
-          link: '1/'
-        },
-        {
-          text: '2',
-          icon: 'book',
-          link: '2/'
+          text: 'ES6快速上手',
+          icon: 'Elasticsearchshuchu',
+          link: '📚es6快速上手/',
+          prefix: ''
         }
       ]
     }
