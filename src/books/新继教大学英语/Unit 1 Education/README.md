@@ -1,4 +1,4 @@
 ---
-title: '00-ES6概述'
+title: 'Unit 1 Education'
 icon: 'zidingyizhangjie'
 ---

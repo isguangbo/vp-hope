@@ -13,6 +13,12 @@ export default navbar(
           icon: 'Elasticsearchshuchu',
           link: '📚es6快速上手/',
           prefix: ''
+        },
+        {
+          text: '新继教大学英语',
+          icon: 'english',
+          link: '新继教大学英语/',
+          prefix: ''
         }
       ]
     }

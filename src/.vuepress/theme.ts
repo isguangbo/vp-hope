@@ -13,7 +13,7 @@ export default hopeTheme(
     },
 
     // iconAssets: 'fontawesome-with-brands',
-    iconAssets: ['//at.alicdn.com/t/c/font_4221652_kifyoah0l2.css', 'iconfont'],
+    iconAssets: ['//at.alicdn.com/t/c/font_4221652_hyurvta5uy6.css', 'iconfont'],
     iconPrefix: 'iconfont icon-',
 
     logo: '/logo.png',
@@ -62,9 +62,12 @@ export default hopeTheme(
       //   category: 'Announcements',
       //   categoryId: 'DIC_kwDOG_Pt2M4COD69'
       // },
+      copyCode: {
+        showInMobile: true
+      },
       // 版权信息
       copyright: {
-        global: true,
+        global: false,
         author: 'GuangBo',
         license: 'MIT',
         triggerWords: 1
@@ -73,6 +76,7 @@ export default hopeTheme(
       mdEnhance: {
         align: true,
         attrs: true,
+        card: true,
         chart: true,
         // 代码块分组
         codetabs: true,
