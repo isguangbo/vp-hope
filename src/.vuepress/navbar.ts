@@ -17,7 +17,7 @@ export default navbar(
         {
           text: '新继教大学英语',
           icon: 'english',
-          link: '新继教大学英语/',
+          link: '📚新继教大学英语/',
           prefix: ''
         }
       ]
