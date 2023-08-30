@@ -135,7 +135,8 @@ export default hopeTheme(
           // 'XiGua',
           // 'YouTube'
         ]
-      }
+      },
+      photoSwipe: false
 
       // blog: true
 

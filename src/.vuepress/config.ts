@@ -17,6 +17,8 @@ export default defineUserConfig({
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components')
     }),
+
+    // 搜索插件
     docsearchPlugin({
       // 你的选项
       // appId, apiKey 和 indexName 是必填的

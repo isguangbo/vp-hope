@@ -1,44 +1,59 @@
 <template>
-  <div>
-    <!-- <div class="box">test</div> -->
-    <div class="page-wrapper">
-      <div class="content">
-        <!-- 页面内容 -->
-        <p>这里是页面内容。</p>
-      </div>
+  <el-row>
+    <el-col :span="8">
+      <el-card :body-style="{ padding: '0px' }" shadow="hover">
+        <el-image lazy :src="url" :fit="cover" :preview-src-list="srcList" :zoom-rate="1.2" :initial-index="3"></el-image>
 
-      <div class="bottom-box">
-        <p>这个盒子位于页面底部。</p>
-      </div>
-    </div>
-  </div>
-  <el-button type="warning">test</el-button>
+        <div style="padding: 14px">
+          <span>Yummy hamburger</span>
+          <div class="bottom">
+            <time class="time">{{ currentDate }}</time>
+            <el-button text class="button">Operating</el-button>
+          </div>
+        </div>
+      </el-card>
+    </el-col>
+  </el-row>
 </template>
-<script setup>
-console.log(1)
+
+<script lang="ts" setup>
+import { ref } from 'vue'
+const url = 'https://shao-images.oss-cn-beijing.aliyuncs.com/images/P001.jpg'
+const srcList = [
+  'https://shao-images.oss-cn-beijing.aliyuncs.com/images/logo.png',
+  'https://shao-images.oss-cn-beijing.aliyuncs.com/images/P007.jpg',
+  'https://shao-images.oss-cn-beijing.aliyuncs.com/images/P006.jpg',
+  'https://shao-images.oss-cn-beijing.aliyuncs.com/images/P005.jpg',
+  'https://shao-images.oss-cn-beijing.aliyuncs.com/images/P004.jpg',
+  'https://shao-images.oss-cn-beijing.aliyuncs.com/images/P003.jpg',
+  'https://shao-images.oss-cn-beijing.aliyuncs.com/images/P002.jpg',
+  'https://shao-images.oss-cn-beijing.aliyuncs.com/images/P001.jpg'
+]
+
+const currentDate = ref(new Date())
 </script>
-<style lang="scss" scoped>
-// .box {
-//   height: 20px;
-//   background-color: tomato;
-//   border: 1px solid deeppink;
-// }
-/* 将 .page-wrapper 设为 Flex 容器 */
-.page-wrapper {
+
+<style>
+.time {
+  font-size: 12px;
+  color: #999;
+}
+
+.bottom {
+  margin-top: 13px;
+  line-height: 12px;
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* 将 .content 设为 Flex 项，使其占据剩余空间 */
-.content {
-  flex: 1;
+.button {
+  padding: 0;
+  min-height: auto;
 }
 
-/* .bottom-box 样式，放在页面底部 */
-.bottom-box {
-  background-color: #f0f0f0;
-  padding: 20px;
-  text-align: center;
+.image {
+  width: 100%;
+  display: block;
 }
 </style>

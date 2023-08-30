@@ -26,6 +26,9 @@ devDependencies:
   vuepress:
     specifier: 2.0.0-beta.66
     version: 2.0.0-beta.66(@vuepress/client@2.0.0-beta.66)(vue@3.3.4)
+  vuepress-plugin-bubble:
+    specifier: ^1.0.4
+    version: 1.0.4
   vuepress-theme-hope:
     specifier: 2.0.0-beta.235
     version: 2.0.0-beta.235(vuepress@2.0.0-beta.66)
@@ -6037,6 +6040,10 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
+    dev: true
+
+  /vuepress-plugin-bubble@1.0.4:
+    resolution: {integrity: sha512-h8mCYPQs2yXKneNcc8p+Yp6hIfD2M16d2kJgFaN1YUbVMEniwJKmqrIYfa94dc4NQ3e4Dgokvvu/tqDA3+Z45w==}
     dev: true
 
   /vuepress-plugin-comment2@2.0.0-beta.235(vuepress@2.0.0-beta.66):
