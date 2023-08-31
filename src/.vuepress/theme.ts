@@ -87,6 +87,7 @@ export default hopeTheme(
         gfm: true,
         // 图片懒加载
         imgLazyload: true,
+        imgMark: true,
         imgSize: true,
         include: true,
         katex: true,
@@ -135,8 +136,8 @@ export default hopeTheme(
           // 'XiGua',
           // 'YouTube'
         ]
-      },
-      photoSwipe: false
+      }
+      // photoSwipe: false
 
       // blog: true
 
