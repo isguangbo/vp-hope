@@ -13,7 +13,7 @@ export default hopeTheme(
     },
 
     // iconAssets: 'fontawesome-with-brands',
-    iconAssets: ['//at.alicdn.com/t/c/font_4221652_hyurvta5uy6.css', 'iconfont'],
+    iconAssets: ['//at.alicdn.com/t/c/font_4221652_wtxd923u5lp.css', 'iconfont'],
     iconPrefix: 'iconfont icon-',
 
     logo: '/logo.png',
@@ -37,7 +37,7 @@ export default hopeTheme(
     // 加密配置
     encrypt: {
       config: {
-        '/demo/encrypt.html': ['1234']
+        '/photos/README.md': ['1234', '123']
       }
     },
 

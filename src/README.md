@@ -14,78 +14,22 @@ tagline: 一个小白，从不犯错，<br>只是不小心写了几个bug
 title: 书籍
 desc: 一些图书留下阅读过的痕迹
 logo: https://mister-hope.com/logo.svg
-link: https://blog.newbee.website/books
+link: ./books/
 color: rgba(253, 230, 138, 0.15)
 ```
 
 ```card
 title: 面试
-desc: Where there is light, there is hope
+desc: 整理的一些面试题
 logo: https://mister-hope.com/logo.svg
 link: https://mister-hope.com
 color: rgba(253, 230, 138, 0.15)
 ```
 
 ```card
-title: Mr.Hope
-desc: Where there is light, there is hope
+title: 相册
+desc: 一些照片,可能需要一些权限
 logo: https://mister-hope.com/logo.svg
-link: https://mister-hope.com
-color: rgba(253, 230, 138, 0.15)
-```
-
-```card
-title: Mr.Hope
-desc: Where there is light, there is hope
-logo: https://mister-hope.com/logo.svg
-link: https://mister-hope.com
-color: rgba(253, 230, 138, 0.15)
-```
-
-```card
-title: Mr.Hope
-desc: Where there is light, there is hope
-logo: https://mister-hope.com/logo.svg
-link: https://mister-hope.com
-color: rgba(253, 230, 138, 0.15)
-```
-
-```card
-title: Mr.Hope
-desc: Where there is light, there is hope
-logo: https://mister-hope.com/logo.svg
-link: https://mister-hope.com
-color: rgba(253, 230, 138, 0.15)
-```
-
-```card
-title: Mr.Hope
-desc: Where there is light, there is hope
-logo: https://mister-hope.com/logo.svg
-link: https://mister-hope.com
-color: rgba(253, 230, 138, 0.15)
-```
-
-```card
-title: Mr.Hope
-desc: Where there is light, there is hope
-logo: https://mister-hope.com/logo.svg
-link: https://mister-hope.com
-color: rgba(253, 230, 138, 0.15)
-```
-
-```card
-title: Mr.Hope
-desc: Where there is light, there is hope
-logo: https://mister-hope.com/logo.svg
-link: https://mister-hope.com
-color: rgba(253, 230, 138, 0.15)
-```
-
-```card
-title: Mr.Hope
-desc: Where there is light, there is hope
-logo: https://mister-hope.com/logo.svg
-link: https://mister-hope.com
+link: ./photos/
 color: rgba(253, 230, 138, 0.15)
 ```

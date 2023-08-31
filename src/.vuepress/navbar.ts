@@ -21,7 +21,9 @@ export default navbar(
           prefix: ''
         }
       ]
-    }
+    },
+
+    '/photos/'
   ]
   // [
   // {
