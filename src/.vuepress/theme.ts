@@ -136,10 +136,10 @@ export default hopeTheme(
           // 'XiGua',
           // 'YouTube'
         ]
-      }
+      },
       // photoSwipe: false
 
-      // blog: true
+      blog: true
 
       // uncomment these if you want a pwa
       // pwa: {

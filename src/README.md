@@ -1,5 +1,6 @@
 ---
 home: true
+layout: BlogHome
 icon: shouye
 title: 主页
 footer: <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备17072573号-5</a>
@@ -7,7 +8,7 @@ footer: <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备17072573�
 
 heroImage: logo.png
 heroText: SS.GuangBo.Blog
-tagline: 一个小白，从不犯错，<br>只是不小心写了几个bug
+tagline: 一个小白，从不犯错，只是不小心写了几个bug
 ---
 
 ```card
