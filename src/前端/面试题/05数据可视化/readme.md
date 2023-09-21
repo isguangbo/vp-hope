@@ -11,4 +11,3 @@ icon: zidingyizhangjie
 6. echarts 图表自适应 div resize 问题
 7. echarts 在 vue 中怎么引用?
 8. echarts 支持哪些图标?
-9. 

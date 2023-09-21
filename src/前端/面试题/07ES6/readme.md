@@ -28,4 +28,4 @@ icon: zidingyizhangjie
 23. 分析下列程序代码，得出运行结果，解释其原因 ![](https://shao-images.oss-cn-beijing.aliyuncs.com/images/books/es6/q-4.png)
 24. 使用结构赋值，实现两个变量的值的交换
 25. 说一下 ES6 的导入导出模块
-26. 
+26.
