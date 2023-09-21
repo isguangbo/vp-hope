@@ -22,6 +22,19 @@ export default navbar(
         }
       ]
     },
+    {
+      text: '前端',
+      icon: '',
+      prefix: '/前端/',
+      children: [
+        {
+          text: '面试题',
+          icon: 'english',
+          link: '面试题/',
+          prefix: ''
+        }
+      ]
+    },
 
     '/photos/'
   ]

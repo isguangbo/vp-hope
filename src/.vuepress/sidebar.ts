@@ -12,6 +12,13 @@ export default sidebar({
       // collapsible: true
       // children: [{ text: 'ES6快速上手', icon: 'Elasticsearchshuchu', prefix: 'es6快速上手/', children: 'structure', collapsible: true }]
     }
+  ],
+  '/前端/': [
+    {
+      text: '前端',
+      icon: 'tushu1',
+      children: 'structure'
+    }
   ]
   // "/": [
   //     "",
